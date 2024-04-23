@@ -1,0 +1,96 @@
+
+.flex{
+    display: flex;
+}
+
+
+body {
+    
+    background-image: url(/Images/1.jpg);
+    background-size: cover;
+}
+
+
+main {
+
+    font-family: 'georgia';   
+    max-width: 900px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 98vh;
+    margin:auto;
+    background-color: aliceblue;
+    
+}
+
+header {
+    
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+section.parte1{
+    padding: 100px 4%;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+.texto1{
+
+    padding: 70px;
+    text-align: justify;
+
+}
+
+.imagem1 {
+    border-radius: 50%;
+    width: 35rem;
+    height: 22rem;
+    max-width: 350px;
+}
+
+section.parte2{
+    padding: 130px 4%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.texto2 {
+
+    
+    padding: 60px;
+    text-align: justify;
+
+
+}
+
+.texto3 {
+    
+    padding: 60px;
+    text-align: center; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.linguagens-conhecidas{
+    text-align: center;
+
+}
+
+.contato {
+    display: inline-flex;    
+    
+}
+
